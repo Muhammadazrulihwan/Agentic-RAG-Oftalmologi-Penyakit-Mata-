@@ -1,0 +1,21 @@
+# Environment
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Vector store (bisa dibangun ulang dengan python -m app.ingestion)
+chroma_db/
+backend/chroma_db/
+
+# Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Paper PDF (lihat catatan di bawah)
+backend/data/papers/*.pdf
