@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.custom-glass {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(124, 58, 237, 0.12);
+  box-shadow: 0 10px 30px -4px rgba(124, 58, 237, 0.06), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+}
+
+.hero-glow {
+  background: radial-gradient(circle at 50% 20%, rgba(124, 58, 237, 0.14) 0%, rgba(245, 243, 255, 0.4) 50%, transparent 80%);
+}
+
+.aura-orb-1 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(158, 65, 245, 0.18) 0%, rgba(124, 58, 237, 0.02) 70%, transparent 100%);
+  filter: blur(50px);
+  pointer-events: none;
+}
+
+.aura-orb-2 {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  background: radial-gradient(circle, rgba(76, 215, 246, 0.15) 0%, rgba(124, 58, 237, 0.04) 65%, transparent 100%);
+  filter: blur(60px);
+  pointer-events: none;
+}
